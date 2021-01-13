@@ -1,0 +1,8 @@
+class Movie:
+  def __init__(self,title,director_name):
+    self.name = title
+    self.director = director_name
+  
+  
+my_movie = Movie('The Matrix','Wachowski')
+print(f"{my_movie.name},{my_movie.director}")
